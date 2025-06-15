@@ -1,9 +1,10 @@
 """
 CP1404/CP5632 Practical
-List exercises - getting numbers and displaying some stats
+List exercises - getting numbers and displaying some stats, and checking username access
 """
 
 def main():
+    # Part 1 - Number stats
     numbers = []
 
     for i in range(5):
@@ -15,6 +16,17 @@ def main():
     print(f"The smallest number is {min(numbers)}")
     print(f"The largest number is {max(numbers)}")
     print(f"The average of the numbers is {sum(numbers) / len(numbers)}")
+
+    # Part 2 - Username check
+    usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45',
+                 'BaseInterpreterInterface', 'BaseStdIn', 'Command', 'ExecState',
+                 'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob']
+
+    username = input("Username: ")
+    if username in usernames:
+        print("Access granted")
+    else:
+        print("Access denied")
 
 
 main()
