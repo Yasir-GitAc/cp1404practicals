@@ -21,10 +21,10 @@ You will find code for weekly practical tasks, including exercises on classes, f
 
 ## Useful Links
 
-- [Programming Patterns](https://github.com/jcu-CP1404/Programming-Patterns)  
+- [Programming Patterns](https://github.com/Yasir-GitAc/cp1404practicals/tree/master/prac_01)  
   Learn common ways to structure your code for readability and reusability.
-- [CP1404 Practicals Instructions](https://github.com/jcu-CP1404/practicals)  
-  The official practicals instruction repository for the subject.
+- [CP1404 Practicals Instructions](https://github.com/Yasir-GitAc/cp1404practicals)  
+
 
 ---
 
